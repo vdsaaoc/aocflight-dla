@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>SAI AOC Web App</title>
+  <title>SAI AOC</title>
 
   <style>
     html,
@@ -15,24 +14,34 @@
       width: 100%;
       height: 100%;
       overflow: hidden;
+      background: #ffffff;
+    }
+
+    #app {
+      width: 100%;
+      height: 100vh;
     }
 
     iframe {
       width: 100%;
-      height: 100vh;
-      border: 0;
+      height: 100%;
+      border: none;
       display: block;
     }
   </style>
-
 </head>
 
 <body>
 
+<div id="app">
+
   <iframe
     src="https://script.google.com/macros/s/AKfycbw3wMHIQh03oZPAF06TZHlFmD8IYjv6eh9jn5Yus6NH4wn6gofZqFJp3MHzChwOIv0bxg/exec"
+    title="SAI AOC Web Application"
     allow="fullscreen">
   </iframe>
+
+</div>
 
 </body>
 </html>
